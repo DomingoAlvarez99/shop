@@ -33,7 +33,7 @@
 <script lang="ts">
 import { defineComponent, PropType, toRefs } from 'vue';
 import { Article } from '@/domain/article/article';
-import { insertCartArticle } from './shopping-cart/insert-article';
+import { insertCartArticle } from '../shopping-cart/insert-article';
 
 export default defineComponent({
   name: 'Article',

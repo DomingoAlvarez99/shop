@@ -24,7 +24,7 @@ export default defineComponent({
   name: 'Home',
   components: {
     Article: defineAsyncComponent({
-      loader: () => import('@/ui/components/shared/Article.vue')
+      loader: () => import('@/ui/components/shared/article/Article.vue')
     })
   },
   setup() {

@@ -1,7 +1,7 @@
 import { Ref, ref } from 'vue';
 import { dependencyContainer } from '@/dependency-container';
 import { Article } from '@/domain/article/article';
-import { toast } from './toast';
+import { toast } from '../toast';
 
 const articles: Ref<Article[]> = ref([]);
 
